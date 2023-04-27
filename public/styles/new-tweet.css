@@ -1,0 +1,149 @@
+.new-tweet form {
+  width: 100%;
+  outline: 0;
+  border: 1.5em;
+  background-color: var(--light-grey);
+  resize: none;
+  word-break: break-all;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+}
+
+
+
+.new-tweet textarea {
+  width: 150%;
+  height: 20px;
+  flex-direction: column;
+  visibility: visible;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  border-bottom: #2c2b2b dashed ;
+  margin-bottom: 10px;
+  padding-bottom: 1.5em;
+
+ }
+
+ 
+.new-tweet button {
+  
+  position: relative;
+  background-color: #4056A1;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Bungee Inline";
+  border-radius: 0;
+  padding: 5px 15px;
+  margin-top: 10px;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.new-tweet .counter {
+  color: #2c2b2b;
+  font-family:"Bungee Inline" ;
+  flex-direction: row;
+  align-content: center;
+  align-items: right;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: bold;
+  margin-top: 10px;
+  padding-left: 2.5em;
+ 
+}
+.new-tweet .counter-red {
+  color: red;
+}
+
+.new-tweet .button-counter {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-between;
+ 
+}
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: right;
+  border: 1px solid black;
+  resize:vertical;
+  flex-shrink: inherit;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tweet-container h2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.tweet-container h2 i {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.tweet-container .p1 {
+  display: flex;
+  font-family: "Bungee Inline";
+  align-items: flex-end;
+  justify-content: right;
+  font-size: 1.5rem;
+  color: rgb(22, 22, 22);
+  margin: 0;
+  padding-right: 1.5em ;
+  margin-bottom: 10px;
+  margin-right: 1.5em;
+}
+
+.tweet-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bungee Inline";
+  font-size: 1.5rem;
+  margin: 20px 0;
+  border-bottom: 2px solid #2804ca;
+  padding: 0 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.userTweet {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: auto;
+  margin-right: 1.5em;
+}
+
+.footer i {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.footer .timestamp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer i:hover {
+  color: blue;
+}
