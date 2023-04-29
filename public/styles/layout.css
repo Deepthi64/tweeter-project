@@ -38,3 +38,41 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+@media (min-width: 1024px) {  
+  .page-container {
+    display: flex;
+    position: relative;
+    justify-content:center;
+    margin-top: 70px;
+  }
+}
+
+
+
+
+
+@media (min-width: 1024px) {  
+  .tweetsContainer {
+    display: flex;
+    flex-direction:column;
+    justify-content: right;
+    width:60%;
+    padding: 1.5em;
+    padding-top: 60px;
+  }
+}
+
+
+
+@media (min-width: 1024px) {  
+  .header-container {
+    display: flex;
+    flex-direction:column;
+    justify-content:left;
+    width: 35%;
+    flex-shrink: 20px;
+    padding: 1.5em;
+    margin-top: 60px;
+  }
+}
