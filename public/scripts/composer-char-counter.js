@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-  $(`#tweet-text`).on(`keypress`, function() {
+  $(`#tweet-text`).on('input', function() {
     const $textarea = $(`#tweet-text`);
     const inputLength = $textarea.val().length;
     const maxLength = 140;
