@@ -16,6 +16,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- body-parser
+- chance
+- express
+- md5
 
 
 # [!screenshot of tweeter home page](https://github.com/Deepthi64/tweeter-project/commit/fd0493c90524c4d0a3b283342f7747f4e67f1d84#diff-ddcac2020a489c6cfd4f8a032a21c8a9739505ffcb6172a4187346a95013390b)
