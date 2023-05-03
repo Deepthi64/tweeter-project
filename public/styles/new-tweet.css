@@ -79,6 +79,7 @@
   margin-bottom: 10px;
 }
 
+
 .tweet-container h2 {
   display: inline-flex;
   align-items: center;
@@ -123,6 +124,15 @@
   font-size: 1rem;
   color: black;
   margin: 10px 0;
+
+}
+
+* {
+  word-wrap: break-word;
+}
+
+.userTweet :hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
