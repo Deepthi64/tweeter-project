@@ -15,8 +15,8 @@ $(document).ready(function() {
       success: function(tweets) {
         renderTweets(tweets);
       },
-      error: function(error) {
-        console.error(error);
+      error: (error) => {
+        $('#tweets-container').html('<p class="error-msg">Error loading tweets. Please try again later.</p>');
       }
     });
   };
@@ -49,8 +49,9 @@ $(document).ready(function() {
        $error.hide();
     })
     .catch((error) => {
-      console.error('Error submitting tweet:', error);   
+      $('#tweets-container').html('<p class="error-msg">Error submitting tweet. Please try again later.</p>');
     });
+    
   }
 });
 loadTweets();
