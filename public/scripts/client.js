@@ -42,20 +42,18 @@ $(document).ready(function() {
       url: '/tweets',
       data: tweetData
     })
-    .then(function(response) {
+    .then((response) => {
       $(this).find('textarea').val(''); 
       $(this).find('.counter').text(maxLength); 
        loadTweets();
        $error.hide();
     })
-    .catch(function(error) {
-      console.error('Error submitting tweet:', error);
+    .catch((error) => {
+      console.error('Error submitting tweet:', error);   
     });
   }
-  loadTweets();
 });
-
-
+loadTweets();
 
 
 const createTweetElement = function(tweet) {
@@ -86,7 +84,7 @@ const renderTweets = function(tweets) {
   const $tweetsContainer = $('#tweets-container');
   $tweetsContainer.empty(); 
 
-  tweets.forEach(function(tweet) {
+  tweets.forEach((tweet) => {
     const $tweet = createTweetElement(tweet);
     $tweetsContainer.prepend($tweet);
   });
