@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     $counter.text(remainingChars);
     
-    if (remainingChars <= 0) {
+    if (remainingChars < 0) {
       $counter.addClass('counter-red');
     } else {
       $counter.removeClass('counter-red');
