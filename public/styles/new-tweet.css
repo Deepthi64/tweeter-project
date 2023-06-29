@@ -70,13 +70,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: right;
   border: 1px solid black;
   resize:vertical;
   flex-shrink: inherit;
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
 }
 
 .tweet-container h2 {
@@ -123,6 +124,13 @@
   font-size: 1rem;
   color: black;
   margin: 10px 0;
+}
+* {
+  word-wrap: break-word;
+}
+
+.tweet-container :hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
