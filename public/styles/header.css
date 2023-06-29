@@ -1,5 +1,5 @@
 header {
-  height: 520px;
+  height: 400px;
   width: 100%;
   background-color: #F9A03F;
   display: flex;
@@ -9,32 +9,16 @@ header {
   background-image: url("https://www.transparenttextures.com/patterns/crossword.png");
   background-size: cover;
   opacity: 1;
-  padding-top: 160px;
-
-  }
+  padding-top: 50px;
+  margin-bottom: 20px;
+ }
  
-  
-  .avatar {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-   
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFF;
-    }
-
-.avatar img {
-  max-height: 100%;
-  max-width: 100%;
-  margin-bottom: 0;
-}
-
-.name {
-  font-size: 2em;
+ .header h2 {
+  margin-top: 0%;
+  text-align: center;
+  text-justify: auto;
+  font-size:1.5em;
   color: #FFF;
-  margin-top : 0;
-}
+ }
+
 
