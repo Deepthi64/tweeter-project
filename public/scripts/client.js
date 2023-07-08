@@ -82,7 +82,7 @@ const createTweetElement = function(tweet) {
 }
 
 const renderTweets = function(tweets) {
-  const $tweetsContainer = $('#tweets-container');
+  const $tweetsContainer = $('.tweets-holder');
   $tweetsContainer.empty(); 
 
   tweets.forEach((tweet) => {
